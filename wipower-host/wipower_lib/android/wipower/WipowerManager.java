@@ -55,7 +55,7 @@ import android.os.SystemProperties;
 
 public final class WipowerManager {
     private static final String TAG = "WipowerManager";
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
     private static final boolean VDBG = false;
 
     private static IWipower mService;

@@ -77,8 +77,8 @@ public class BluetoothMasService extends Service {
      * "setprop log.tag.BluetoothMapService DEBUG"; enable both VERBOSE and
      * DEBUG log: "setprop log.tag.BluetoothMapService VERBOSE"
      */
-    public static final boolean DEBUG = true;
-    public static final boolean VERBOSE = true;
+    public static final boolean DEBUG = false;
+    public static final boolean VERBOSE = false;
     /**
      * Intent indicating incoming connection request which is sent to
      * BluetoothMasActivity

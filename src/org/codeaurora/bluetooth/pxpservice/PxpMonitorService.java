@@ -72,7 +72,7 @@ import java.util.concurrent.TimeUnit;
 public class PxpMonitorService extends Service {
 
     private static final String TAG = PxpMonitorService.class.getSimpleName();
-    private static final     boolean DBG = true;
+    private static final     boolean DBG = false;
 
     public static final String DEVICE_CONNECTED = "android.bluetooth.action.DEVICE_CONNECTED";
 

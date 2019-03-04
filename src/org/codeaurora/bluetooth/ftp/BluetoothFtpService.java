@@ -82,8 +82,8 @@ public class BluetoothFtpService extends Service {
 
     //public static final boolean VERBOSE = false;
 
-    public static final boolean DEBUG = true;
-    public static boolean VERBOSE = true;
+    public static final boolean DEBUG = false;
+    public static boolean VERBOSE = false;
     private int mState;
 
     /**
@@ -401,7 +401,7 @@ public class BluetoothFtpService extends Service {
     }
 
     private void startRfcommSocketListener() {
-        VERBOSE = Log.isLoggable(BluetoothFtpService.LOG_TAG, Log.VERBOSE) ? true : false;
+        VERBOSE = false;  //Log.isLoggable(BluetoothFtpService.LOG_TAG, Log.VERBOSE) ? true : false;
         Log.v(TAG, "Ftp Service startRfcommSocketListener");
 
         if (mRfcommAcceptThread == null) {

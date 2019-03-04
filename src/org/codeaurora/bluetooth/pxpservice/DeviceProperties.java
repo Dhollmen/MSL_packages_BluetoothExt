@@ -49,7 +49,7 @@ import java.util.TimerTask;
  */
 public class DeviceProperties {
 
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
 
     private static final String TAG = "PxpdeviceProp";
 

@@ -75,7 +75,7 @@ public class BluetoothDunService extends Service {
 
     private static final String TAG                             = "BluetoothDunService";
     public static final String LOG_TAG                          = "BluetoothDun";
-    public static boolean VERBOSE;
+    public static boolean VERBOSE                               = false;
 
     private final static String DUN_SERVER                      = "qcom.dun.server";
 
@@ -291,7 +291,7 @@ public class BluetoothDunService extends Service {
     public void onCreate() {
 
         super.onCreate();
-        VERBOSE = Log.isLoggable(LOG_TAG, Log.VERBOSE) ? true : false;
+        VERBOSE = false; //Log.isLoggable(LOG_TAG, Log.VERBOSE) ? true : false;
         if (VERBOSE) Log.v(TAG, "Dun Service onCreate");
 
         mDunDevices = new HashMap<BluetoothDevice, BluetoothDunDevice>();

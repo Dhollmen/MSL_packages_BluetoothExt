@@ -38,7 +38,7 @@ import android.util.Log;
 
 public class WipowerApp extends Application {
     private static final String TAG = "BluetoothWipowerApp";
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
 
     static {
         if (DBG) Log.d(TAG,"Loading JNI Library");

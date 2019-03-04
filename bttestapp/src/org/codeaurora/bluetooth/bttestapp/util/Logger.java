@@ -36,7 +36,7 @@ public class Logger {
     // Android Tag for logging.
     private static final String TAG = "NexusCarKit";
 
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static final boolean VLOG = DEBUG && true;
     private static final boolean DLOG = DEBUG && true;
